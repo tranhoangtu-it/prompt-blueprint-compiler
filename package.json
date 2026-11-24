@@ -1,0 +1,48 @@
+{
+  "name": "prompt-blueprint-compiler",
+  "version": "1.0.0",
+  "description": "Zero-dependency {{variable}} AI System Prompt Compiler, Token & Cost Estimator, and Multi-Agent JSON Schema Output Validator.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "bin": {
+    "promptc": "./bin/promptc.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "prompt-engineering",
+    "ai-agents",
+    "llm",
+    "system-prompts",
+    "json-schema",
+    "token-counter",
+    "multi-agent",
+    "template-engine",
+    "mcp",
+    "zero-dependencies"
+  ],
+  "homepage": "https://agent-vault.tranhoangtu-it.workers.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranhoangtu-it/prompt-blueprint-compiler.git"
+  },
+  "author": "Tran Hoang Tu <tranhoangtu.it@gmail.com>",
+  "license": "MIT"
+}
